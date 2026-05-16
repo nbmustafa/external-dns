@@ -12,7 +12,7 @@ annotations:
       description: "Fixed incorrect indentation of selector labels under spec.template.spec.topologySpreadConstraints when topologySpreadConstraints is set."
 apiVersion: v2
 # renovate: datasource=helm registryUrl=https://kubernetes-sigs.github.io/external-dns/ depName=external-dns
-appVersion: "0.20.0"
+appVersion: "1.21.1"
 description: ExternalDNS synchronizes exposed Kubernetes Services and Ingresses with DNS providers.
 home: https://github.com/kubernetes-sigs/external-dns/
 icon: https://github.com/kubernetes-sigs/external-dns/raw/master/docs/img/external-dns.png
@@ -36,5 +36,5 @@ version: "0.1.0"
 
 dependencies:
   - name: external-dns
-    version: "1.20.0"
+    version: "1.21.1"
     repository: "https://kubernetes-sigs.github.io/external-dns/"
